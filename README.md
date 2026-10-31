@@ -4,7 +4,7 @@ Rena 是一个基于大语言模型的中文聊天角色设定。她是一个拥
 
 ## 📁 文件说明
 
-- [personas/rena/persona_Rena.json](personas/rena/persona_Rena.json)：包含机器可读的角色配置，包括 `system_prompt`（核心系统提示词）和 `begin_dialogs`（预设开场与示例对话）。
+- [personas/rena/persona_rena.json](personas/rena/persona_rena.json)：包含机器可读的角色配置，包括 `system_prompt`（核心系统提示词）和 `begin_dialogs`（预设开场与示例对话）。
 - [personas/rena/rena.md](personas/rena/rena.md)：人类可读的提示词排版版本，方便直接阅读和复制。
 
 ## 🚀 如何使用
@@ -18,7 +18,7 @@ Rena 是一个基于大语言模型的中文聊天角色设定。她是一个拥
 
 ### 方式二：配置调用（适合开发者）
 如果你在使用 API 或支持导入 JSON 的客户端：
-1. 下载或打开 [personas/rena/persona_Rena.json](personas/rena/persona_Rena.json)。
+1. 下载或打开 [personas/rena/persona_rena.json](personas/rena/persona_rena.json)。
 2. 将 `system_prompt` 字段的值，作为 API 请求中的 `system` 角色内容传入。
 3. （可选）将 `begin_dialogs` 作为对话的开场白示例（Few-shot）传入，能让模型更好地把握语气。
 
